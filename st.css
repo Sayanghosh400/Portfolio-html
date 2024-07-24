@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+.sidebar{
+          height: 120vh;
+}
+.main{
+          padding: 50px;
+          padding-top: 10px;
+          padding-left: 200px;
+          background-image: url(./tech\ 3.jpg);
+}
+.intro{
+          font-size: 20px;
+}
+.devpic{
+          float: right;
+          height: 50vh;
+}
+h1{
+          font-family: 'Merriweather', serif;
+          margin: 20px;
+          margin-bottom: 0;
+          font-size: 2em;
+}
+h2{
+          font-family: 'Roboto Mono', monospace;
+          margin: 20px;
+          margin-bottom: 0;
+          font-size: 1.5em;
+}
+p{
+          font-family: 'Solway', serif;
+          font-size: 1em;
+          padding: 10px;
+          margin: 20px;
+          margin-top: 10px;
+}
+.hello{
+          font-size: 4em;
+          margin: 20px;
+}
+.name{
+          font-size: 3em;
+          margin: 20px;
+}
+.skillcontainer{
+          padding: 10px;
+}
+.skillitem{
+          display: flex;
+          align-content: center;
+          padding: 8px;
+          font-family: 'Source Code Pro', monospace;
+          font-size: 1em;
+          font-weight: bold;
+}
+.skill{
+          width: 300px;
+          height: 10px;
+          margin-left: 130px;
+          background-color: green;
+          border: 2px solid black;
+          align-items: baseline;
+          margin-top: 6px;
+}
+.fifty{
+          width: 150px;
+          margin-left: 95px;
+          background-color: greenyellow;
+}
+.t5{
+          width: 75px;
+          margin-left: 105px;
+          background-color: yellow;
+}
+.s5{
+          width: 225px;
+          margin-left: 105px;
+          background-color: lightgreen;
+}
+.html{
+          margin-left: 95px;
+}
+.js{
+          margin-left: 23px;
+}
+.python{
+          margin-left: 70px;
+}
+@media (max-width:1000px){
+          .sidebar{
+                    height: 165%;
+          }
+          .devpic{
+                    height: 20vh;
+          }
+          .intro{
+                    font-size: 13px;
+          }
+          .s5{
+                    margin-left: 65px;
+          }
+          .fifty{
+                    margin-left: 60px;
+          }
+          .html{
+                    margin-left: 58px;
+          }
+          .python{
+                    margin-left: 52px;
+          }
+          .c{
+                    margin-left: 80px;
+          }
+          .cpp{
+                    margin-left: 68px;
+          }
+}

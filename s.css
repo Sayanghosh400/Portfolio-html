@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+.project{
+          display: flex;
+          justify-content: center;
+          padding: 5vw;
+          padding-top: 1vh;
+}
+a{
+          text-decoration: none;
+          color: black;
+}
+.txt{
+          background-color: white;
+          font-size: 2em;
+          text-align: center;
+}
+.flex:hover{
+          color:white;
+          background-color: black;
+}
+/* .txt:hover{
+          color:white;
+          background-color: black;
+} */
+.flex{
+          display: flex;
+          justify-content: center;
+          margin: 5vw;
+          padding: 2vw;
+}
+h1{
+          font-family: 'Roboto Mono', monospace;
+          margin: 2vw;
+          margin-bottom: 0;
+          padding-left: 5vw;
+          font-size: 5em;
+          background-image:url(./tech\ 1.jpg);
+          color:yellow;
+}

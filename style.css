@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+          padding: 0;
+          margin: 0;
+}
+li{
+          list-style: none;
+}
+.sidebar{
+          background-image:url(./tech\ 4.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: yellow;
+          height: 100vh;
+          width: 200px;
+          font-family: 'Abril Fatface', cursive;
+          transition: transform 0.3s ease-in-out;
+          position: absolute;
+}
+.sidebargo{
+          transform: translate(-500px,0);
+          position: absolute;
+}
+.sidebar nav{
+          padding: 45px 10px;
+}
+.sidebar nav li{
+          list-style: none;
+          font-size: 30px;
+          padding: 33px 0;
+}
+.sidebar nav li a{
+          text-decoration: none;
+          color: yellow;
+}
+.main{
+          background-image: url(./Real.jpg);
+          background-repeat: no-repeat; 
+          background-size: cover;
+          width: 100vw;
+          height: 100vh;
+}
+.container{
+          display: flex;
+}
+.info{
+          background-image: url(./tech\ 2.jpg);
+          height: 60vh;
+          width: 80vw;
+          margin: auto;
+          margin-top: 150px;
+          display: flex;
+          justify-content: space-around;
+}
+.devinfo{
+          font-size: 20px;
+          padding-left: 30px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+}
+.hello{
+          font-size: 6em;
+          font-family: 'Source Code Pro', monospace;
+}
+.name{
+          font-family: 'Righteous', cursive;
+          font-size: 4em;
+          font-weight: bold;
+}
+.about{
+          font-size: 2em;
+          font-family: 'Source Code Pro', monospace;
+}
+.devpic{
+          height: 60vh; 
+          border-radius: 100%;
+          margin-left: 60px;
+}
+.buttons{
+          margin-top: 30px;
+          font-size: 20px;
+}
+.buttons button{
+          padding: 10px 14px;
+          border-radius: 20px;
+          border-width: 0;
+          background-color:rgb(4, 72, 139);
+          color:white; 
+          font-size: 1em;
+          font-weight: bold;
+          margin: 0 3px;
+          cursor: pointer;
+}
+.buttons button:hover{
+          background-color:white;
+          color:rgb(4, 72, 139);
+          /* border-width: 1px; */
+}
+.hamburger{
+          position: absolute;
+          cursor: pointer;
+          top: 10px;
+          left: 10px;
+}
+.cross{
+          margin-left: 150px;
+}
+@media (max-width:1000px){
+          *{
+                    overflow: visible;
+          }
+          .sidebar{
+                    height: 100%;
+          }
+          .intro, .info{
+                    margin: 50px, 8px;
+          }
+          .devinfo{
+                    font-size: 10px;
+          }
+          .devpic{
+                    height: 20vh;
+                    margin: 0;
+          }
+          .buttons{
+                    font-size: 10px;
+          }
+          .buttons button{
+                    padding: 7px 10px;
+          }
+}

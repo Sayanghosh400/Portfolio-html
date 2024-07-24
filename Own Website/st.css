@@ -1,0 +1,60 @@
+*{
+          box-sizing: border-box;
+          list-style: none;
+}
+body{
+          margin: 0px;
+}
+section{
+          padding: 10px;
+}
+p{
+          margin: 0px 130px;
+          padding: 50px;
+}
+
+.firstheading{
+          text-align: center;
+          color: cadetblue;
+}
+
+
+header{
+          background-image:url(./mix-sweets-500x500.jpg) ;
+          height:200px ;
+          width: 100vw;
+          min-height: 100px;
+          background-repeat: repeat-x;
+          background-position: top center;
+          background-size: 20%;
+          background-attachment: fixed;
+}
+.bname{
+          
+          
+          color: #0011fae5;
+          text-align: center;
+          font-size: 100px;
+          
+          
+}
+/* .mistidiv{
+          border-spacing: 10px;
+          padding: 100px;
+          position: relative;
+} */
+button{
+
+          position: relative;
+          margin: 10px;
+          border: none;
+          padding: 80px 80px 80px 80px;
+          
+}
+img{
+          background-position: center;
+          height: 20vw;
+          width: 20vw;
+          padding: 10px;
+          
+}

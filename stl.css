@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+*{
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+}
+.sidebar{
+          background-image:url(./tech\ 4.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: yellow;
+          height: 100vh;
+          width: 200px;
+          font-family: 'Abril Fatface', cursive;
+          transition: transform 0.3s ease-in-out;
+          position: absolute;
+}
+.sidebargo{
+          transform: translate(-500px,0);
+          position: absolute;
+}
+.sidebar nav{
+          padding: 45px 10px;
+}
+.sidebar nav li{
+          list-style: none;
+          font-size: 30px;
+          padding: 33px 0;
+}
+.sidebar nav li a{
+          text-decoration: none;
+          color: yellow;
+}
+.info{
+          font-size: 20px;
+}
+.main{
+          background-image:url(./tech\ 3.jpg);
+          background-repeat: no-repeat; 
+          background-size: cover;
+          padding: 50px;
+          padding-left: 100px;
+          width: 90vw;
+}
+.container{
+          display: flex;
+}
+#box
+{
+          float: right;
+          margin: 20px;
+          width: 200px;
+          border-radius: 5px;
+          background-color: chartreuse;
+          padding: 10px;
+}
+.special{
+          background-color: darkblue;
+          padding: 15px;
+          color: gold;
+          overflow: visible;
+}
+.clear{
+          clear: right;
+}
+h1{
+          font-family: 'Righteous', cursive;
+          font-size: 4em;
+          font-weight: bold;
+          padding-bottom: 50px;
+}
+h2{
+          font-size: 2em;
+          font-family: 'Source Code Pro', monospace;
+}
+p{
+          font-family: 'Solway', serif;
+          font-size: 1em;
+          padding: 10px;
+}
+.intro{
+          padding-top: 50px;
+}
+.outro{
+          padding-bottom: 0;
+}
+.hamburger{
+          position: absolute;
+          cursor: pointer;
+          top: 10px;
+          left: 10px;
+}
+.cross{
+          margin-left: 150px;
+}
+@media (max-width:1000px){
+          *{
+                    overflow: visible;
+          }
+          .info{
+                    font-size: 15px;
+          }
+          #box{
+                    width: 12vh;
+                    padding: 5px;
+          }
+          .special{
+                    padding: 5px;
+                    padding-top: 0;
+                    padding-right: 0;
+          }
+          .sidebar{
+                    height: 200vh;
+          }
+}
